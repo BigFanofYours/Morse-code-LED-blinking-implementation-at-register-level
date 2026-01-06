@@ -11,7 +11,8 @@ int main(void)
 	RCC_Init();
 	GPIO_LEDInit();
 	GPIO_USART1Init();
-	USART1_Transmitter_Init();
+	USART1_Init();
+	USART1_Enable();
 	while(1)	
 	{
 		USART1_Transmit(UART_TX_OK);

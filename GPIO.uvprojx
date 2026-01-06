@@ -419,6 +419,11 @@
               <FileType>1</FileType>
               <FilePath>.\RCC.c</FilePath>
             </File>
+            <File>
+              <FileName>NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\NVIC.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -458,6 +463,21 @@
               <FileName>RCC.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\RCC.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC_Registers.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\NVIC_Registers.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\NVIC.h</FilePath>
+            </File>
+            <File>
+              <FileName>IRQ.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\IRQ.h</FilePath>
             </File>
           </Files>
         </Group>

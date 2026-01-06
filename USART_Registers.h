@@ -15,6 +15,6 @@ typedef struct{
 
 #define USART1_BASE (0x40011000UL)
 
-#define USART1 ((USART_Typedef*) USART1_BASE)
+#define USART1 ((USART_Typedef *) USART1_BASE)
 
 #endif
