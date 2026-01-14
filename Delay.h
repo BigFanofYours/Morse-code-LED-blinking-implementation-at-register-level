@@ -3,6 +3,6 @@
 
 #include <stdint.h>
 
-void Delay(void);
+void Delay(uint32_t DelaySec);
 
 #endif

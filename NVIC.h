@@ -4,6 +4,7 @@
 #include "NVIC_Registers.h"
 #include "IRQ.h"
 
-void USART1_NVICIRQEnable(IRQn_Typedef IRQn);
+void NVIC_IRQEnable(IRQn_Typedef IRQn);
+void NVIC_IRQDisable(IRQn_Typedef IRQn);
 
 #endif

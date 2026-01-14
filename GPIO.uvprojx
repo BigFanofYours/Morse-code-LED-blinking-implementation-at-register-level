@@ -424,6 +424,11 @@
               <FileType>1</FileType>
               <FilePath>.\NVIC.c</FilePath>
             </File>
+            <File>
+              <FileName>IRQ.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\IRQ.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

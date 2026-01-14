@@ -19,7 +19,7 @@ void USART1_Init(void)
 	USART1->USART_CR1 |= ((1UL << 2U) | (1UL << 3U));
 	
 	// Enable interrupt for USART1 RX
-	USART1_NVICIRQEnable(USART1_IRQn);
+	NVIC_IRQEnable(USART1_IRQn);
 }
 
 void USART1_SendChar(uint8_t data)
@@ -39,4 +39,5 @@ void USART1_Transmit(const char *data)
 		data++;
 	}
 }
+
 
